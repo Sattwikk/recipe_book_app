@@ -1,23 +1,53 @@
 import '../models/recipe.dart';
 
-List<Recipe> sampleRecipes = [
+final List<Recipe> sampleRecipes = [
   Recipe(
-    name: "Creamy Pasta",
-    imagePath: "assets/images/pasta.jpg",
+    name: 'Spaghetti Bolognese',
+    imagePath: 'assets/images/pasta.jpg',
     ingredients: [
-      "200g pasta",
-      "1 cup cream",
-      "2 cloves garlic",
-      "Parmesan cheese",
-      "Salt & pepper",
+      'Spaghetti',
+      'Ground beef',
+      'Tomato sauce',
+      'Onion',
+      'Garlic'
     ],
     instructions:
-        "Boil pasta. Sauté garlic, add cream and cheese. Mix with pasta.",
+        'Cook spaghetti. Brown beef with onion and garlic. Add tomato sauce. Combine and serve.',
   ),
   Recipe(
-    name: "Fresh Salad",
-    imagePath: "assets/images/salad.jpg",
-    ingredients: ["Lettuce", "Tomatoes", "Cucumber", "Olive oil"],
-    instructions: "Chop vegetables and toss with olive oil.",
+    name: 'Fresh Garden Salad',
+    imagePath: 'assets/images/salad.jpg',
+    ingredients: ['Lettuce', 'Tomatoes', 'Cucumber', 'Olives', 'Dressing'],
+    instructions:
+        'Chop vegetables. Mix in a bowl. Add dressing. Toss well and serve.',
+  ),
+  Recipe(
+    name: 'Chicken Curry',
+    imagePath:
+        'assets/images/chicken_curry.jpg', // add this image in assets/images/
+    ingredients: [
+      'Chicken pieces',
+      'Onion',
+      'Tomato',
+      'Garlic & Ginger paste',
+      'Curry powder',
+      'Coconut milk'
+    ],
+    instructions:
+        'Sauté onion and garlic/ginger paste. Add chicken and cook. Add tomatoes and curry powder. Pour coconut milk, simmer until chicken is cooked.',
+  ),
+  Recipe(
+    name: 'Pancakes',
+    imagePath: 'assets/images/pancakes.jpg', // add this image
+    ingredients: ['Flour', 'Milk', 'Eggs', 'Sugar', 'Butter'],
+    instructions:
+        'Mix flour, milk, eggs, and sugar to make batter. Heat a pan and pour batter. Cook both sides until golden. Serve with syrup or fruits.',
+  ),
+  Recipe(
+    name: 'Grilled Sandwich',
+    imagePath: 'assets/images/sandwich.jpg', // add this image
+    ingredients: ['Bread slices', 'Cheese', 'Tomato', 'Lettuce', 'Butter'],
+    instructions:
+        'Butter bread slices. Place cheese, tomato, and lettuce. Grill until golden brown. Cut and serve hot.',
   ),
 ];
